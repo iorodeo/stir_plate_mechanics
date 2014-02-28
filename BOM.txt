@@ -1,0 +1,17 @@
+QTY     Description                             Vendor             PN             Notes              
+===============================================================================================================================
+1       Assembled basic speed control PCB       IO Rodeo  
+1       3V DC Motor, 2104 RPM, 1-3V Range       Jameco             2158442
+1       Pair of countersunk magnets             K&J Magnetics      R822CS-P
+1       Knob                                    All Electronics    226-2092-ND
+1       DC Power Jack panel mount               MCM Electronics    27-5867
+
+4       4-40 standoff, 1.75” long               McMaster-Carr      91780A038       Enclosure standoffs
+4       4-40 standoff, 3/8” long                McMaster-Carr                      PCB standoffs
+4       4-40 standoffs, either 1” long or 2”    McMaster-Carr                      Motor mount standoffs
+24      4-40 machine screws 3/8” long           McMaster-Carr      91249A108
+2       M2.6X4                                  McMaster-Carr                      Motor mounting
+2       4-40, 1/4” long, flat screws            McMaster-Carr      91771A106       Magnet mounting 
+2       6-32 screws, 1/4” long, motor mount     McMaster-Carr      91249A144       Mounting magnet mount onto motor
+
+
