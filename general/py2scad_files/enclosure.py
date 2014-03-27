@@ -24,6 +24,8 @@ for i in (-1,1):
                 }
         holeList.append(hole)
 
+print(holeList)
+
 # Add hole in cener of top
 hole = {
     'type'     : 'rounded_square',
