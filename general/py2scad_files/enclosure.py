@@ -1,6 +1,7 @@
 """
 Creates an enclosure
 """
+from __future__ import print_function
 from py2scad import *
 
 # Inside dimensions
@@ -10,12 +11,15 @@ topHoleSize = 0.116*INCH2MM
 botHoleSize = 0.089*INCH2MM
 holeOffset = 5.0
 
+print("\ntop mount hole sep (in): ", (x+2*holeOffset)/INCH2MM)
+
 # Add outer edge holes in top
 holeList = []
 for i in (-1,1):
     for j in (-1,1):
         holeX = i*(0.5*x + holeOffset)
         holeY = j*(0.5*y + holeOffset)
+        print("hole (x,y):", holeX/INCH2MM, holeY/INCH2MM)
         hole = {
                 'type' : 'round',
                 'panel': 'top',
@@ -24,7 +28,6 @@ for i in (-1,1):
                 }
         holeList.append(hole)
 
-print(holeList)
 
 # Add hole in cener of top
 hole = {
@@ -57,6 +60,12 @@ params = {
 
 enclosure = Basic_Enclosure(params)
 enclosure.make()
+
+
+print('\nstandoff hole locations (in)')
+for hole in enclosure.standoff_hole_list:
+    loc = hole['location']
+    print(loc[0]/INCH2MM, loc[1]/INCH2MM)
 
 part_assembly = enclosure.get_assembly(explode=(0,0,0))
 part_projection = enclosure.get_projection()
