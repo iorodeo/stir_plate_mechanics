@@ -1,17 +1,15 @@
-QTY     Description                             Vendor             PN             Notes              
+QTY    Description                                                Vendor                PN              
 ===============================================================================================================================
-1       Assembled basic speed control PCB       IO Rodeo  
-1       3V DC Motor, 2104 RPM, 1-3V Range       Jameco             2158442
-1       Pair of countersunk magnets             K&J Magnetics      R822CS-P
-1       Knob                                    All Electronics    226-2092-ND
-1       DC Power Jack panel mount               MCM Electronics    27-5867
-
-4       4-40 standoff, 1.75” long               McMaster-Carr      91780A038       Enclosure standoffs
-4       4-40 standoff, 3/8” long                McMaster-Carr                      PCB standoffs
-4       4-40 standoffs, either 1” long or 2”    McMaster-Carr                      Motor mount standoffs
-24      4-40 machine screws 3/8” long           McMaster-Carr      91249A108
-2       M2.6X4                                  McMaster-Carr                      Motor mounting
-2       4-40, 1/4” long, flat screws            McMaster-Carr      91771A106       Magnet mounting 
-2       6-32 screws, 1/4” long, motor mount     McMaster-Carr      91249A144       Mounting magnet mount onto motor
-
-
+4      motor mount standoffs     4-40 standoffs, 1.5” long        McMaster-Carr         91780A120                           
+4      Enclosure standoffs       4-40 standoff, 1.75” long        McMaster-Carr         91780A038              
+4      PCB standoffs             4-40 standoff, 3/8” long         McMaster-Carr         91780A509                                
+24     Enclosure screws          4-40 machine screws 1/4” long    McMaster-Carr         91249A105
+4      Motor mount screws        4-40 machine screws 3/8" long    McMaster-Carr         91249A108
+1      Set screw                 8-32, 1/4" long set screw        McMaster-Carr         90669A190
+2      Motor screws              M2.6, 4 mm long                  McMaster-Carr         90353A110                                   
+2      Magnet screws             6-32, 3/8” long, flat screws     McMaster-Carr         91771A146                                
+1      3.3V motor                                                 Jameco                2158442
+1      DC panel mount jack                                        MCM Electronics       27-5867
+1      Knob                                                       All Electronics       226-2092-ND
+1      Pair of magnets           1/2" x 1/8", countersunk hole    K and J Magnetics     R822CS-P
+4      Rubber feet                                                Digikey               SJ5012-0-ND             
