@@ -1,0 +1,133 @@
+
+; Generic Start
+G40 (Cancel cutter radius compensation)
+G49 (Cancel tool length offset)
+G80 (Cancel canned cycle)
+G54 (Select coordinate system 1)
+G90 (Set absolute distance mode)
+G20 (Set units to inches)
+G61 (Exact path mode)
+
+F 2.0
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.025
+; startDwell: 2.0
+; safeZ: 0.5
+; centerX: -3.9
+; centerY: -0.65
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.50000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X-3.90000000 Y-0.65000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X-3.9 Y-0.65 Z-0.025 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.50000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.025
+; startDwell: 2.0
+; safeZ: 0.5
+; centerX: -1.9
+; centerY: -0.65
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.50000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X-1.90000000 Y-0.65000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X-1.9 Y-0.65 Z-0.025 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.50000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.025
+; startDwell: 2.0
+; safeZ: 0.5
+; centerX: 1.9
+; centerY: -0.65
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.50000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X1.90000000 Y-0.65000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X1.9 Y-0.65 Z-0.025 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.50000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.025
+; startDwell: 2.0
+; safeZ: 0.5
+; centerX: 3.9
+; centerY: -0.65
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.50000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X3.90000000 Y-0.65000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X3.9 Y-0.65 Z-0.025 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.50000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+
+M2 (End program)

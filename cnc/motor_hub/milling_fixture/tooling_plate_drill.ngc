@@ -1,0 +1,75 @@
+
+; Generic Start
+G40 (Cancel cutter radius compensation)
+G49 (Cancel tool length offset)
+G80 (Cancel canned cycle)
+G54 (Select coordinate system 1)
+G90 (Set absolute distance mode)
+G20 (Set units to inches)
+G61 (Exact path mode)
+
+F 2.0
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.35
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: -5.22
+; centerY: -1.16
+; stepZ: 0.1
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X-5.22000000 Y-1.16000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X-5.22 Y-1.16 Z-0.35 R0.0 Q0.1
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.35
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 5.22
+; centerY: -1.16
+; stepZ: 0.1
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X5.22000000 Y-1.16000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X5.22 Y-1.16 Z-0.35 R0.0 Q0.1
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+M2 (End program)

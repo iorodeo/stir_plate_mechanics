@@ -1,0 +1,4 @@
+
+* cut boundary on milling fixture instead of using tape for a hold down.
+
+* make part slightly thicker (tap showing through) in magnet pocket
