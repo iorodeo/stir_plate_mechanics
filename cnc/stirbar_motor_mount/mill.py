@@ -39,7 +39,7 @@ def createNGCFile(display=False):
                         'startDwell'     : standoffParam['startDwell'],
                         }
         
-                pocket = cnc_pocket.CircPocket(pocketDict)
+                pocket = cnc_pocket.CircPocketXY(pocketDict)
                 prog.add(pocket)
                 prog.add(gcode_cmd.Space())
     
@@ -51,7 +51,7 @@ def createNGCFile(display=False):
         pocketDict = dict(motorPocketParam)
         pocketDict['centerX'] = x0
         pocketDict['centerY'] = y0
-        pocket = cnc_pocket.CircPocket(pocketDict)
+        pocket = cnc_pocket.CircPocketXY(pocketDict)
         prog.add(pocket)
     
         # Motor hole
@@ -62,7 +62,7 @@ def createNGCFile(display=False):
         holeDict = dict(motorHoleParam)
         holeDict['centerX'] = x0
         holeDict['centerY'] = y0
-        pocket = cnc_pocket.CircPocket(holeDict)
+        pocket = cnc_pocket.CircPocketXY(holeDict)
         prog.add(pocket)
 
         # Boundary cut

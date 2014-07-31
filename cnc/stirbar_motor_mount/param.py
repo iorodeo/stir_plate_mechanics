@@ -3,7 +3,7 @@ Parameters for cutting the strir bar motor mount plate.
 
 """
 from __future__ import print_function
-numPart = 2
+numPart = 3
 partPosStartX = -4.0
 partPosStep = 2.5
 partPos = [(partPosStartX + partPosStep*i, 0) for i in range(numPart)]
