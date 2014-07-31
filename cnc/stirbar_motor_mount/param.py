@@ -3,17 +3,17 @@ Parameters for cutting the strir bar motor mount plate.
 
 """
 from __future__ import print_function
-numPart = 3
+numPart = 4
 partPosStartX = -4.0
 partPosStep = 2.5
 partPos = [(partPosStartX + partPosStep*i, 0) for i in range(numPart)]
 
 motorHoleSpacing = 0.866
 standoffHoleSpacing = 1.8
-rawThickness = 0.2730
+rawThickness = 0.27
 partThickness = 0.25
 
-surfaceToolDiam = 0.375
+surfaceToolDiam = 0.5
 surfaceDepth = rawThickness - partThickness 
 surfaceXYMargin = 0.4
 
@@ -21,17 +21,18 @@ boundaryPad = 0.1
 
 startDwell = 2.0
 
-drillFeedRate = 1.0
+drillFeedRate = 22.0 
 centDrillDepth = -0.12
 thruDrillDepth = -(partThickness + 0.1) 
 drillSafeZ = 0.15
 drillStartZ = 0.0
+drillStepZ = 0.05
 
 endMillDiam = 0.125
 millFeedRate = 20.0
 millDirection = 'ccw'
 millSafeZ = 0.25
-millOverlap = 0.3
+millOverlap = 0.5
 millFinishOverlap = 0.6
 millNormMaxCutDepth = 0.08
 millSepMaxCutDepth = 0.02
@@ -49,6 +50,7 @@ param['motorDrill'] = {
         'stopZCent'    : centDrillDepth,
         'stopZThru'    : thruDrillDepth,
         'safeZ'        : drillSafeZ,
+        'stepZ'        : drillStepZ,
         'startDwell'   : startDwell,
         }
 
@@ -59,6 +61,7 @@ param['standoffDrill'] = {
         'stopZCent'    : centDrillDepth,
         'stopZThru'    : thruDrillDepth,
         'safeZ'        : drillSafeZ,
+        'stepZ'        : drillStepZ,
         'startDwell'   : startDwell,
         }
 

@@ -24,9 +24,10 @@ def createNGCFile(display=False):
                         'startZ'     : motorParam['startZ'],
                         'stopZ'      : motorParam['stopZThru'],
                         'safeZ'      : motorParam['safeZ'],
+                        'stepZ'      : motorParam['stepZ'],
                         'startDwell' : motorParam['startDwell'],
                         }
-                drill = cnc_drill.SimpleDrill(drillDict)
+                drill = cnc_drill.PeckDrill(drillDict)
                 prog.add(drill)
                 prog.add(gcode_cmd.Space())
     

@@ -11,7 +11,7 @@ G61 (Exact path mode)
 ; ------------------------------------------------------------
 ; Motor mount holes, partPos = (-4.0,0)
 ; ------------------------------------------------------------
-F 1.0
+F 20.0
 
 ; Begin SimpleDrill
 ; ------------------------------------------------------------
@@ -75,7 +75,7 @@ G0 Z0.15000000
 ; ------------------------------------------------------------
 ; Standoff holes, partPos = (-4.0,0)
 ; ------------------------------------------------------------
-F 1.0
+F 20.0
 
 ; Begin SimpleDrill
 ; ------------------------------------------------------------
@@ -199,7 +199,7 @@ G0 Z0.15000000
 ; ------------------------------------------------------------
 ; Motor mount holes, partPos = (-1.5,0)
 ; ------------------------------------------------------------
-F 1.0
+F 20.0
 
 ; Begin SimpleDrill
 ; ------------------------------------------------------------
@@ -263,7 +263,7 @@ G0 Z0.15000000
 ; ------------------------------------------------------------
 ; Standoff holes, partPos = (-1.5,0)
 ; ------------------------------------------------------------
-F 1.0
+F 20.0
 
 ; Begin SimpleDrill
 ; ------------------------------------------------------------
@@ -376,6 +376,382 @@ G4 P2.0
 ; SimpleDrill: move to start z
 G1 Z0.00000000
 G81 X-0.6 Y0.9 Z-0.12 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+; ------------------------------------------------------------
+; Motor mount holes, partPos = (1.0,0)
+; ------------------------------------------------------------
+F 20.0
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.12
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 0.567
+; centerY: 0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X0.56700000 Y0.00000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X0.567 Y0.0 Z-0.12 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.12
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 1.433
+; centerY: 0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X1.43300000 Y0.00000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X1.433 Y0.0 Z-0.12 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+; ------------------------------------------------------------
+; Standoff holes, partPos = (1.0,0)
+; ------------------------------------------------------------
+F 20.0
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.12
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 0.1
+; centerY: -0.9
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X0.10000000 Y-0.90000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X0.1 Y-0.9 Z-0.12 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.12
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 0.1
+; centerY: 0.9
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X0.10000000 Y0.90000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X0.1 Y0.9 Z-0.12 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.12
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 1.9
+; centerY: -0.9
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X1.90000000 Y-0.90000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X1.9 Y-0.9 Z-0.12 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.12
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 1.9
+; centerY: 0.9
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X1.90000000 Y0.90000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X1.9 Y0.9 Z-0.12 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+; ------------------------------------------------------------
+; Motor mount holes, partPos = (3.5,0)
+; ------------------------------------------------------------
+F 20.0
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.12
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 3.067
+; centerY: 0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X3.06700000 Y0.00000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X3.067 Y0.0 Z-0.12 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.12
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 3.933
+; centerY: 0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X3.93300000 Y0.00000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X3.933 Y0.0 Z-0.12 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+; ------------------------------------------------------------
+; Standoff holes, partPos = (3.5,0)
+; ------------------------------------------------------------
+F 20.0
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.12
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 2.6
+; centerY: -0.9
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X2.60000000 Y-0.90000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X2.6 Y-0.9 Z-0.12 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.12
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 2.6
+; centerY: 0.9
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X2.60000000 Y0.90000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X2.6 Y0.9 Z-0.12 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.12
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 4.4
+; centerY: -0.9
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X4.40000000 Y-0.90000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X4.4 Y-0.9 Z-0.12 R0.0
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End SimpleDrill
+; ------------------------------------------------------------
+
+
+
+; Begin SimpleDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.12
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 4.4
+; centerY: 0.9
+
+; SimpleDrill: rapid move to safe z
+G0 Z0.15000000
+
+; SimpleDrill: rapid move to drill x,y
+G0 X4.40000000 Y0.90000000
+
+; SimpleDrill: dwell
+G4 P2.0
+
+; SimpleDrill: move to start z
+G1 Z0.00000000
+G81 X4.4 Y0.9 Z-0.12 R0.0
 
 ; SimpleDrill: rapid move to safe z
 G0 Z0.15000000
