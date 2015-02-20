@@ -12,14 +12,19 @@ maxCutDepth = 0.04
 toolDiam = 0.25
 direction = 'ccw'
 startDwell = 2.0
-feedrate = 22.0
+feedrate = 60.0
 
 prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.FeedRate(feedrate))
 
+cnt = 0
 for xPosLayout, yPosLayout in zip(params['xPosList'],params['yPosList']):
+
+    cnt+=1
+    if cnt == 1:
+        continue
 
     if 1:
         # Annulus pocket

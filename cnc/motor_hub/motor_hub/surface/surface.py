@@ -3,10 +3,10 @@ import os
 from py2gcode import gcode_cmd
 from py2gcode import cnc_pocket
 
-feedrate = 22.0
+feedrate = 60.0
 
-width = 2*5.5
-height = 3.4
+width = 13.0
+height = 3.0
 stockThickness = 0.5250
 desiredThickness = 0.45
 cutDepth = stockThickness - desiredThickness
@@ -25,10 +25,10 @@ param = {
         'depth'         : cutDepth,
         'startZ'        : 0.0,
         'safeZ'         : 0.25,
-        'overlap'       : 0.3,
+        'overlap'       : 0.5,
         'overlapFinish' : 0.5,
         'maxCutDepth'   : 0.05,
-        'toolDiam'      : 0.375,
+        'toolDiam'      : 0.5,
         'cornerCut'     : False,
         'direction'     : 'ccw',
         'startDwell'  : 2.0,
