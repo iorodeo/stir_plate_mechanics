@@ -29,7 +29,7 @@ drillStartZ = 0.0
 drillStepZ = 0.05
 
 endMillDiam = 0.125
-millFeedRate = 20.0
+millFeedRate = 60.0
 millDirection = 'ccw'
 millSafeZ = 0.25
 millOverlap = 0.5
