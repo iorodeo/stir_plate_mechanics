@@ -2,9 +2,9 @@ params = {}
 
 # Cutting array parametes
 
-params['numX'] = 1 
-params['numY'] = 2
-params['offsetX'] = 0.0
+params['numX'] = 4 
+params['numY'] = 1
+params['offsetX'] = 2.5
 params['offsetY'] = 0.0
 
 params['width'] = 4.5
@@ -12,8 +12,8 @@ params['height'] = 4.5
 params['radius'] = 0.25
 params['thickness'] = 0.514
 params['toolDiam'] = 0.25
-params['partSepX'] = params['width'] + 9.0*params['toolDiam'] 
-params['partSepY'] = params['height'] + 9.0*params['toolDiam']
+params['partSepX'] = params['width'] + 4.0*params['toolDiam'] 
+params['partSepY'] = params['height'] +4.0*params['toolDiam']
 params['partPosList'] = [] 
 for i in range(params['numX']):
     for j in range(params['numY']):

@@ -1,0 +1,4 @@
+python center_drill.py
+python drill.py
+python mill.py
+python params.py
