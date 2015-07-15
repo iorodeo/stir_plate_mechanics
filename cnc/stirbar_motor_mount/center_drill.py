@@ -67,4 +67,4 @@ def createNGCFile(display=False):
 # -----------------------------------------------------------------------------
 if __name__ == '__main__':
 
-    createNGCFile(display=True)
+    createNGCFile(display=False)

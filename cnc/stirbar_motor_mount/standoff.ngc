@@ -9,7 +9,7 @@ G20 (Set units to inches)
 G61 (Exact path mode)
 
 ; ------------------------------------------------------------
-; Standoff pocket, partPos = (-4.0, 0)
+; Standoff pocket, partPos = (2.5, 1.18)
 ; ------------------------------------------------------------
 F 60.0
 
@@ -24,15 +24,15 @@ F 60.0
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: -4.9
-; centerY: -0.9
+; centerX: 1.6
+; centerY: 0.28
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X-4.83250000 Y-0.90000000
+G0 X1.66750000 Y0.28000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -41,16 +41,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X-4.83250000 Y-0.90000000
-G1 X-4.83250000 Y-0.90000000 Z0.00000000
-G3 X-4.83250000 Y-0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X1.66750000 Y0.28000000
+G1 X1.66750000 Y0.28000000 Z0.00000000
+G3 X1.66750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X-4.83250000 Y-0.90000000
-G3 X-4.83250000 Y-0.90000000 I-0.06750000 J0.00000000
-G1 X-4.88250000 Y-0.90000000
-G3 X-4.88250000 Y-0.90000000 I-0.01750000 J0.00000000
-G1 X-4.90000000 Y-0.90000000
+G1 X1.66750000 Y0.28000000
+G3 X1.66750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X1.61750000 Y0.28000000
+G3 X1.61750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X1.60000000 Y0.28000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -71,15 +71,15 @@ G0 Z0.25000000
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: -4.9
-; centerY: 0.9
+; centerX: 1.6
+; centerY: 2.08
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X-4.83250000 Y0.90000000
+G0 X1.66750000 Y2.08000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -88,16 +88,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X-4.83250000 Y0.90000000
-G1 X-4.83250000 Y0.90000000 Z0.00000000
-G3 X-4.83250000 Y0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X1.66750000 Y2.08000000
+G1 X1.66750000 Y2.08000000 Z0.00000000
+G3 X1.66750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X-4.83250000 Y0.90000000
-G3 X-4.83250000 Y0.90000000 I-0.06750000 J0.00000000
-G1 X-4.88250000 Y0.90000000
-G3 X-4.88250000 Y0.90000000 I-0.01750000 J0.00000000
-G1 X-4.90000000 Y0.90000000
+G1 X1.66750000 Y2.08000000
+G3 X1.66750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X1.61750000 Y2.08000000
+G3 X1.61750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X1.60000000 Y2.08000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -118,15 +118,15 @@ G0 Z0.25000000
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: -3.1
-; centerY: -0.9
+; centerX: 3.4
+; centerY: 0.28
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X-3.03250000 Y-0.90000000
+G0 X3.46750000 Y0.28000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -135,16 +135,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X-3.03250000 Y-0.90000000
-G1 X-3.03250000 Y-0.90000000 Z0.00000000
-G3 X-3.03250000 Y-0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X3.46750000 Y0.28000000
+G1 X3.46750000 Y0.28000000 Z0.00000000
+G3 X3.46750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X-3.03250000 Y-0.90000000
-G3 X-3.03250000 Y-0.90000000 I-0.06750000 J0.00000000
-G1 X-3.08250000 Y-0.90000000
-G3 X-3.08250000 Y-0.90000000 I-0.01750000 J0.00000000
-G1 X-3.10000000 Y-0.90000000
+G1 X3.46750000 Y0.28000000
+G3 X3.46750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X3.41750000 Y0.28000000
+G3 X3.41750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X3.40000000 Y0.28000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -165,15 +165,15 @@ G0 Z0.25000000
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: -3.1
-; centerY: 0.9
+; centerX: 3.4
+; centerY: 2.08
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X-3.03250000 Y0.90000000
+G0 X3.46750000 Y2.08000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -182,16 +182,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X-3.03250000 Y0.90000000
-G1 X-3.03250000 Y0.90000000 Z0.00000000
-G3 X-3.03250000 Y0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X3.46750000 Y2.08000000
+G1 X3.46750000 Y2.08000000 Z0.00000000
+G3 X3.46750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X-3.03250000 Y0.90000000
-G3 X-3.03250000 Y0.90000000 I-0.06750000 J0.00000000
-G1 X-3.08250000 Y0.90000000
-G3 X-3.08250000 Y0.90000000 I-0.01750000 J0.00000000
-G1 X-3.10000000 Y0.90000000
+G1 X3.46750000 Y2.08000000
+G3 X3.46750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X3.41750000 Y2.08000000
+G3 X3.41750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X3.40000000 Y2.08000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -201,7 +201,7 @@ G0 Z0.25000000
 
 
 ; ------------------------------------------------------------
-; Standoff pocket, partPos = (-1.5, 0)
+; Standoff pocket, partPos = (5.0, 1.18)
 ; ------------------------------------------------------------
 F 60.0
 
@@ -216,15 +216,15 @@ F 60.0
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: -2.4
-; centerY: -0.9
+; centerX: 4.1
+; centerY: 0.28
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X-2.33250000 Y-0.90000000
+G0 X4.16750000 Y0.28000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -233,16 +233,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X-2.33250000 Y-0.90000000
-G1 X-2.33250000 Y-0.90000000 Z0.00000000
-G3 X-2.33250000 Y-0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X4.16750000 Y0.28000000
+G1 X4.16750000 Y0.28000000 Z0.00000000
+G3 X4.16750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X-2.33250000 Y-0.90000000
-G3 X-2.33250000 Y-0.90000000 I-0.06750000 J0.00000000
-G1 X-2.38250000 Y-0.90000000
-G3 X-2.38250000 Y-0.90000000 I-0.01750000 J0.00000000
-G1 X-2.40000000 Y-0.90000000
+G1 X4.16750000 Y0.28000000
+G3 X4.16750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X4.11750000 Y0.28000000
+G3 X4.11750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X4.10000000 Y0.28000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -263,15 +263,15 @@ G0 Z0.25000000
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: -2.4
-; centerY: 0.9
+; centerX: 4.1
+; centerY: 2.08
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X-2.33250000 Y0.90000000
+G0 X4.16750000 Y2.08000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -280,16 +280,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X-2.33250000 Y0.90000000
-G1 X-2.33250000 Y0.90000000 Z0.00000000
-G3 X-2.33250000 Y0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X4.16750000 Y2.08000000
+G1 X4.16750000 Y2.08000000 Z0.00000000
+G3 X4.16750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X-2.33250000 Y0.90000000
-G3 X-2.33250000 Y0.90000000 I-0.06750000 J0.00000000
-G1 X-2.38250000 Y0.90000000
-G3 X-2.38250000 Y0.90000000 I-0.01750000 J0.00000000
-G1 X-2.40000000 Y0.90000000
+G1 X4.16750000 Y2.08000000
+G3 X4.16750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X4.11750000 Y2.08000000
+G3 X4.11750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X4.10000000 Y2.08000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -310,15 +310,15 @@ G0 Z0.25000000
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: -0.6
-; centerY: -0.9
+; centerX: 5.9
+; centerY: 0.28
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X-0.53250000 Y-0.90000000
+G0 X5.96750000 Y0.28000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -327,16 +327,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X-0.53250000 Y-0.90000000
-G1 X-0.53250000 Y-0.90000000 Z0.00000000
-G3 X-0.53250000 Y-0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X5.96750000 Y0.28000000
+G1 X5.96750000 Y0.28000000 Z0.00000000
+G3 X5.96750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X-0.53250000 Y-0.90000000
-G3 X-0.53250000 Y-0.90000000 I-0.06750000 J0.00000000
-G1 X-0.58250000 Y-0.90000000
-G3 X-0.58250000 Y-0.90000000 I-0.01750000 J0.00000000
-G1 X-0.60000000 Y-0.90000000
+G1 X5.96750000 Y0.28000000
+G3 X5.96750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X5.91750000 Y0.28000000
+G3 X5.91750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X5.90000000 Y0.28000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -357,15 +357,15 @@ G0 Z0.25000000
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: -0.6
-; centerY: 0.9
+; centerX: 5.9
+; centerY: 2.08
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X-0.53250000 Y0.90000000
+G0 X5.96750000 Y2.08000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -374,16 +374,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X-0.53250000 Y0.90000000
-G1 X-0.53250000 Y0.90000000 Z0.00000000
-G3 X-0.53250000 Y0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X5.96750000 Y2.08000000
+G1 X5.96750000 Y2.08000000 Z0.00000000
+G3 X5.96750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X-0.53250000 Y0.90000000
-G3 X-0.53250000 Y0.90000000 I-0.06750000 J0.00000000
-G1 X-0.58250000 Y0.90000000
-G3 X-0.58250000 Y0.90000000 I-0.01750000 J0.00000000
-G1 X-0.60000000 Y0.90000000
+G1 X5.96750000 Y2.08000000
+G3 X5.96750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X5.91750000 Y2.08000000
+G3 X5.91750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X5.90000000 Y2.08000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -393,7 +393,7 @@ G0 Z0.25000000
 
 
 ; ------------------------------------------------------------
-; Standoff pocket, partPos = (1.0, 0)
+; Standoff pocket, partPos = (7.5, 1.18)
 ; ------------------------------------------------------------
 F 60.0
 
@@ -408,15 +408,15 @@ F 60.0
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: 0.1
-; centerY: -0.9
+; centerX: 6.6
+; centerY: 0.28
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X0.16750000 Y-0.90000000
+G0 X6.66750000 Y0.28000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -425,16 +425,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X0.16750000 Y-0.90000000
-G1 X0.16750000 Y-0.90000000 Z0.00000000
-G3 X0.16750000 Y-0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X6.66750000 Y0.28000000
+G1 X6.66750000 Y0.28000000 Z0.00000000
+G3 X6.66750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X0.16750000 Y-0.90000000
-G3 X0.16750000 Y-0.90000000 I-0.06750000 J0.00000000
-G1 X0.11750000 Y-0.90000000
-G3 X0.11750000 Y-0.90000000 I-0.01750000 J0.00000000
-G1 X0.10000000 Y-0.90000000
+G1 X6.66750000 Y0.28000000
+G3 X6.66750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X6.61750000 Y0.28000000
+G3 X6.61750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X6.60000000 Y0.28000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -455,15 +455,15 @@ G0 Z0.25000000
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: 0.1
-; centerY: 0.9
+; centerX: 6.6
+; centerY: 2.08
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X0.16750000 Y0.90000000
+G0 X6.66750000 Y2.08000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -472,16 +472,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X0.16750000 Y0.90000000
-G1 X0.16750000 Y0.90000000 Z0.00000000
-G3 X0.16750000 Y0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X6.66750000 Y2.08000000
+G1 X6.66750000 Y2.08000000 Z0.00000000
+G3 X6.66750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X0.16750000 Y0.90000000
-G3 X0.16750000 Y0.90000000 I-0.06750000 J0.00000000
-G1 X0.11750000 Y0.90000000
-G3 X0.11750000 Y0.90000000 I-0.01750000 J0.00000000
-G1 X0.10000000 Y0.90000000
+G1 X6.66750000 Y2.08000000
+G3 X6.66750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X6.61750000 Y2.08000000
+G3 X6.61750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X6.60000000 Y2.08000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -502,15 +502,15 @@ G0 Z0.25000000
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: 1.9
-; centerY: -0.9
+; centerX: 8.4
+; centerY: 0.28
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X1.96750000 Y-0.90000000
+G0 X8.46750000 Y0.28000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -519,16 +519,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X1.96750000 Y-0.90000000
-G1 X1.96750000 Y-0.90000000 Z0.00000000
-G3 X1.96750000 Y-0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X8.46750000 Y0.28000000
+G1 X8.46750000 Y0.28000000 Z0.00000000
+G3 X8.46750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X1.96750000 Y-0.90000000
-G3 X1.96750000 Y-0.90000000 I-0.06750000 J0.00000000
-G1 X1.91750000 Y-0.90000000
-G3 X1.91750000 Y-0.90000000 I-0.01750000 J0.00000000
-G1 X1.90000000 Y-0.90000000
+G1 X8.46750000 Y0.28000000
+G3 X8.46750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X8.41750000 Y0.28000000
+G3 X8.41750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X8.40000000 Y0.28000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -549,15 +549,15 @@ G0 Z0.25000000
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: 1.9
-; centerY: 0.9
+; centerX: 8.4
+; centerY: 2.08
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X1.96750000 Y0.90000000
+G0 X8.46750000 Y2.08000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -566,16 +566,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X1.96750000 Y0.90000000
-G1 X1.96750000 Y0.90000000 Z0.00000000
-G3 X1.96750000 Y0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X8.46750000 Y2.08000000
+G1 X8.46750000 Y2.08000000 Z0.00000000
+G3 X8.46750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X1.96750000 Y0.90000000
-G3 X1.96750000 Y0.90000000 I-0.06750000 J0.00000000
-G1 X1.91750000 Y0.90000000
-G3 X1.91750000 Y0.90000000 I-0.01750000 J0.00000000
-G1 X1.90000000 Y0.90000000
+G1 X8.46750000 Y2.08000000
+G3 X8.46750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X8.41750000 Y2.08000000
+G3 X8.41750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X8.40000000 Y2.08000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -585,7 +585,7 @@ G0 Z0.25000000
 
 
 ; ------------------------------------------------------------
-; Standoff pocket, partPos = (3.5, 0)
+; Standoff pocket, partPos = (10.0, 1.18)
 ; ------------------------------------------------------------
 F 60.0
 
@@ -600,15 +600,15 @@ F 60.0
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: 2.6
-; centerY: -0.9
+; centerX: 9.1
+; centerY: 0.28
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X2.66750000 Y-0.90000000
+G0 X9.16750000 Y0.28000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -617,16 +617,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X2.66750000 Y-0.90000000
-G1 X2.66750000 Y-0.90000000 Z0.00000000
-G3 X2.66750000 Y-0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X9.16750000 Y0.28000000
+G1 X9.16750000 Y0.28000000 Z0.00000000
+G3 X9.16750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X2.66750000 Y-0.90000000
-G3 X2.66750000 Y-0.90000000 I-0.06750000 J0.00000000
-G1 X2.61750000 Y-0.90000000
-G3 X2.61750000 Y-0.90000000 I-0.01750000 J0.00000000
-G1 X2.60000000 Y-0.90000000
+G1 X9.16750000 Y0.28000000
+G3 X9.16750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X9.11750000 Y0.28000000
+G3 X9.11750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X9.10000000 Y0.28000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -647,15 +647,15 @@ G0 Z0.25000000
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: 2.6
-; centerY: 0.9
+; centerX: 9.1
+; centerY: 2.08
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X2.66750000 Y0.90000000
+G0 X9.16750000 Y2.08000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -664,16 +664,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X2.66750000 Y0.90000000
-G1 X2.66750000 Y0.90000000 Z0.00000000
-G3 X2.66750000 Y0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X9.16750000 Y2.08000000
+G1 X9.16750000 Y2.08000000 Z0.00000000
+G3 X9.16750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X2.66750000 Y0.90000000
-G3 X2.66750000 Y0.90000000 I-0.06750000 J0.00000000
-G1 X2.61750000 Y0.90000000
-G3 X2.61750000 Y0.90000000 I-0.01750000 J0.00000000
-G1 X2.60000000 Y0.90000000
+G1 X9.16750000 Y2.08000000
+G3 X9.16750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X9.11750000 Y2.08000000
+G3 X9.11750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X9.10000000 Y2.08000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -694,15 +694,15 @@ G0 Z0.25000000
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: 4.4
-; centerY: -0.9
+; centerX: 10.9
+; centerY: 0.28
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X4.46750000 Y-0.90000000
+G0 X10.96750000 Y0.28000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -711,16 +711,16 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X4.46750000 Y-0.90000000
-G1 X4.46750000 Y-0.90000000 Z0.00000000
-G3 X4.46750000 Y-0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X10.96750000 Y0.28000000
+G1 X10.96750000 Y0.28000000 Z0.00000000
+G3 X10.96750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X4.46750000 Y-0.90000000
-G3 X4.46750000 Y-0.90000000 I-0.06750000 J0.00000000
-G1 X4.41750000 Y-0.90000000
-G3 X4.41750000 Y-0.90000000 I-0.01750000 J0.00000000
-G1 X4.40000000 Y-0.90000000
+G1 X10.96750000 Y0.28000000
+G3 X10.96750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X10.91750000 Y0.28000000
+G3 X10.91750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X10.90000000 Y0.28000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
@@ -741,15 +741,15 @@ G0 Z0.25000000
 ; safeZ: 0.25
 ; radius: 0.13
 ; overlap: 0.5
-; centerX: 4.4
-; centerY: 0.9
+; centerX: 10.9
+; centerY: 2.08
 ; toolDiam: 0.125
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000
 
 ; CircPocketXY: rapid move to start x,y
-G0 X4.46750000 Y0.90000000
+G0 X10.96750000 Y2.08000000
 
 ; CircPocketXY: dwell
 G4 P2.0
@@ -758,16 +758,784 @@ G4 P2.0
 G1 Z0.00000000
 
 ; CircPocketXY: pass 1 lead-in
-G1 X4.46750000 Y0.90000000
-G1 X4.46750000 Y0.90000000 Z0.00000000
-G3 X4.46750000 Y0.90000000 Z-0.07500000 I-0.06750000 J0.00000000
+G1 X10.96750000 Y2.08000000
+G1 X10.96750000 Y2.08000000 Z0.00000000
+G3 X10.96750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
 
 ; CircPocketXY: pass 1 filled circle
-G1 X4.46750000 Y0.90000000
-G3 X4.46750000 Y0.90000000 I-0.06750000 J0.00000000
-G1 X4.41750000 Y0.90000000
-G3 X4.41750000 Y0.90000000 I-0.01750000 J0.00000000
-G1 X4.40000000 Y0.90000000
+G1 X10.96750000 Y2.08000000
+G3 X10.96750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X10.91750000 Y2.08000000
+G3 X10.91750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X10.90000000 Y2.08000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+; ------------------------------------------------------------
+; Standoff pocket, partPos = (12.5, 1.18)
+; ------------------------------------------------------------
+F 60.0
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 11.6
+; centerY: 0.28
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X11.66750000 Y0.28000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X11.66750000 Y0.28000000
+G1 X11.66750000 Y0.28000000 Z0.00000000
+G3 X11.66750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X11.66750000 Y0.28000000
+G3 X11.66750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X11.61750000 Y0.28000000
+G3 X11.61750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X11.60000000 Y0.28000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 11.6
+; centerY: 2.08
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X11.66750000 Y2.08000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X11.66750000 Y2.08000000
+G1 X11.66750000 Y2.08000000 Z0.00000000
+G3 X11.66750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X11.66750000 Y2.08000000
+G3 X11.66750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X11.61750000 Y2.08000000
+G3 X11.61750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X11.60000000 Y2.08000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 13.4
+; centerY: 0.28
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X13.46750000 Y0.28000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X13.46750000 Y0.28000000
+G1 X13.46750000 Y0.28000000 Z0.00000000
+G3 X13.46750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X13.46750000 Y0.28000000
+G3 X13.46750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X13.41750000 Y0.28000000
+G3 X13.41750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X13.40000000 Y0.28000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 13.4
+; centerY: 2.08
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X13.46750000 Y2.08000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X13.46750000 Y2.08000000
+G1 X13.46750000 Y2.08000000 Z0.00000000
+G3 X13.46750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X13.46750000 Y2.08000000
+G3 X13.46750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X13.41750000 Y2.08000000
+G3 X13.41750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X13.40000000 Y2.08000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+; ------------------------------------------------------------
+; Standoff pocket, partPos = (15.0, 1.18)
+; ------------------------------------------------------------
+F 60.0
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 14.1
+; centerY: 0.28
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X14.16750000 Y0.28000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X14.16750000 Y0.28000000
+G1 X14.16750000 Y0.28000000 Z0.00000000
+G3 X14.16750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X14.16750000 Y0.28000000
+G3 X14.16750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X14.11750000 Y0.28000000
+G3 X14.11750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X14.10000000 Y0.28000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 14.1
+; centerY: 2.08
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X14.16750000 Y2.08000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X14.16750000 Y2.08000000
+G1 X14.16750000 Y2.08000000 Z0.00000000
+G3 X14.16750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X14.16750000 Y2.08000000
+G3 X14.16750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X14.11750000 Y2.08000000
+G3 X14.11750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X14.10000000 Y2.08000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 15.9
+; centerY: 0.28
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X15.96750000 Y0.28000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X15.96750000 Y0.28000000
+G1 X15.96750000 Y0.28000000 Z0.00000000
+G3 X15.96750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X15.96750000 Y0.28000000
+G3 X15.96750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X15.91750000 Y0.28000000
+G3 X15.91750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X15.90000000 Y0.28000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 15.9
+; centerY: 2.08
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X15.96750000 Y2.08000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X15.96750000 Y2.08000000
+G1 X15.96750000 Y2.08000000 Z0.00000000
+G3 X15.96750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X15.96750000 Y2.08000000
+G3 X15.96750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X15.91750000 Y2.08000000
+G3 X15.91750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X15.90000000 Y2.08000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+; ------------------------------------------------------------
+; Standoff pocket, partPos = (17.5, 1.18)
+; ------------------------------------------------------------
+F 60.0
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 16.6
+; centerY: 0.28
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X16.66750000 Y0.28000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X16.66750000 Y0.28000000
+G1 X16.66750000 Y0.28000000 Z0.00000000
+G3 X16.66750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X16.66750000 Y0.28000000
+G3 X16.66750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X16.61750000 Y0.28000000
+G3 X16.61750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X16.60000000 Y0.28000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 16.6
+; centerY: 2.08
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X16.66750000 Y2.08000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X16.66750000 Y2.08000000
+G1 X16.66750000 Y2.08000000 Z0.00000000
+G3 X16.66750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X16.66750000 Y2.08000000
+G3 X16.66750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X16.61750000 Y2.08000000
+G3 X16.61750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X16.60000000 Y2.08000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 18.4
+; centerY: 0.28
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X18.46750000 Y0.28000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X18.46750000 Y0.28000000
+G1 X18.46750000 Y0.28000000 Z0.00000000
+G3 X18.46750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X18.46750000 Y0.28000000
+G3 X18.46750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X18.41750000 Y0.28000000
+G3 X18.41750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X18.40000000 Y0.28000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 18.4
+; centerY: 2.08
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X18.46750000 Y2.08000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X18.46750000 Y2.08000000
+G1 X18.46750000 Y2.08000000 Z0.00000000
+G3 X18.46750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X18.46750000 Y2.08000000
+G3 X18.46750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X18.41750000 Y2.08000000
+G3 X18.41750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X18.40000000 Y2.08000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+; ------------------------------------------------------------
+; Standoff pocket, partPos = (20.0, 1.18)
+; ------------------------------------------------------------
+F 60.0
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 19.1
+; centerY: 0.28
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X19.16750000 Y0.28000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X19.16750000 Y0.28000000
+G1 X19.16750000 Y0.28000000 Z0.00000000
+G3 X19.16750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X19.16750000 Y0.28000000
+G3 X19.16750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X19.11750000 Y0.28000000
+G3 X19.11750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X19.10000000 Y0.28000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 19.1
+; centerY: 2.08
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X19.16750000 Y2.08000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X19.16750000 Y2.08000000
+G1 X19.16750000 Y2.08000000 Z0.00000000
+G3 X19.16750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X19.16750000 Y2.08000000
+G3 X19.16750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X19.11750000 Y2.08000000
+G3 X19.11750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X19.10000000 Y2.08000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 20.9
+; centerY: 0.28
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X20.96750000 Y0.28000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X20.96750000 Y0.28000000
+G1 X20.96750000 Y0.28000000 Z0.00000000
+G3 X20.96750000 Y0.28000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X20.96750000 Y0.28000000
+G3 X20.96750000 Y0.28000000 I-0.06750000 J0.00000000
+G1 X20.91750000 Y0.28000000
+G3 X20.91750000 Y0.28000000 I-0.01750000 J0.00000000
+G1 X20.90000000 Y0.28000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; overlapFinish: 0.6
+; direction: ccw
+; startDwell: 2.0
+; depth: 0.075
+; maxCutDepth: 0.08
+; safeZ: 0.25
+; radius: 0.13
+; overlap: 0.5
+; centerX: 20.9
+; centerY: 2.08
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.25000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X20.96750000 Y2.08000000
+
+; CircPocketXY: dwell
+G4 P2.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X20.96750000 Y2.08000000
+G1 X20.96750000 Y2.08000000 Z0.00000000
+G3 X20.96750000 Y2.08000000 Z-0.07500000 I-0.06750000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X20.96750000 Y2.08000000
+G3 X20.96750000 Y2.08000000 I-0.06750000 J0.00000000
+G1 X20.91750000 Y2.08000000
+G3 X20.91750000 Y2.08000000 I-0.01750000 J0.00000000
+G1 X20.90000000 Y2.08000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.25000000

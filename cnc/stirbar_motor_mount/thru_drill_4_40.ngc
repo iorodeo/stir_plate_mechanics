@@ -14,25 +14,25 @@ F 22.0
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: -4.9
-; centerY: -0.9
+; centerX: 1.6
+; centerY: 0.28
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X-4.90000000 Y-0.90000000
+G0 X1.60000000 Y0.28000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X-4.9 Y-0.9 Z-0.35 R0.0 Q0.05
+G83 X1.6 Y0.28 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -45,25 +45,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: -4.9
-; centerY: 0.9
+; centerX: 1.6
+; centerY: 2.08
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X-4.90000000 Y0.90000000
+G0 X1.60000000 Y2.08000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X-4.9 Y0.9 Z-0.35 R0.0 Q0.05
+G83 X1.6 Y2.08 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -76,25 +76,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: -3.1
-; centerY: -0.9
+; centerX: 3.4
+; centerY: 0.28
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X-3.10000000 Y-0.90000000
+G0 X3.40000000 Y0.28000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X-3.1 Y-0.9 Z-0.35 R0.0 Q0.05
+G83 X3.4 Y0.28 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -107,25 +107,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: -3.1
-; centerY: 0.9
+; centerX: 3.4
+; centerY: 2.08
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X-3.10000000 Y0.90000000
+G0 X3.40000000 Y2.08000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X-3.1 Y0.9 Z-0.35 R0.0 Q0.05
+G83 X3.4 Y2.08 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -138,25 +138,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: -2.4
-; centerY: -0.9
+; centerX: 4.1
+; centerY: 0.28
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X-2.40000000 Y-0.90000000
+G0 X4.10000000 Y0.28000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X-2.4 Y-0.9 Z-0.35 R0.0 Q0.05
+G83 X4.1 Y0.28 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -169,25 +169,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: -2.4
-; centerY: 0.9
+; centerX: 4.1
+; centerY: 2.08
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X-2.40000000 Y0.90000000
+G0 X4.10000000 Y2.08000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X-2.4 Y0.9 Z-0.35 R0.0 Q0.05
+G83 X4.1 Y2.08 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -200,25 +200,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: -0.6
-; centerY: -0.9
+; centerX: 5.9
+; centerY: 0.28
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X-0.60000000 Y-0.90000000
+G0 X5.90000000 Y0.28000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X-0.6 Y-0.9 Z-0.35 R0.0 Q0.05
+G83 X5.9 Y0.28 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -231,25 +231,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: -0.6
-; centerY: 0.9
+; centerX: 5.9
+; centerY: 2.08
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X-0.60000000 Y0.90000000
+G0 X5.90000000 Y2.08000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X-0.6 Y0.9 Z-0.35 R0.0 Q0.05
+G83 X5.9 Y2.08 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -262,25 +262,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: 0.1
-; centerY: -0.9
+; centerX: 6.6
+; centerY: 0.28
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X0.10000000 Y-0.90000000
+G0 X6.60000000 Y0.28000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X0.1 Y-0.9 Z-0.35 R0.0 Q0.05
+G83 X6.6 Y0.28 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -293,25 +293,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: 0.1
-; centerY: 0.9
+; centerX: 6.6
+; centerY: 2.08
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X0.10000000 Y0.90000000
+G0 X6.60000000 Y2.08000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X0.1 Y0.9 Z-0.35 R0.0 Q0.05
+G83 X6.6 Y2.08 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -324,25 +324,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: 1.9
-; centerY: -0.9
+; centerX: 8.4
+; centerY: 0.28
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X1.90000000 Y-0.90000000
+G0 X8.40000000 Y0.28000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X1.9 Y-0.9 Z-0.35 R0.0 Q0.05
+G83 X8.4 Y0.28 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -355,25 +355,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: 1.9
-; centerY: 0.9
+; centerX: 8.4
+; centerY: 2.08
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X1.90000000 Y0.90000000
+G0 X8.40000000 Y2.08000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X1.9 Y0.9 Z-0.35 R0.0 Q0.05
+G83 X8.4 Y2.08 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -386,25 +386,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: 2.6
-; centerY: -0.9
+; centerX: 9.1
+; centerY: 0.28
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X2.60000000 Y-0.90000000
+G0 X9.10000000 Y0.28000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X2.6 Y-0.9 Z-0.35 R0.0 Q0.05
+G83 X9.1 Y0.28 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -417,25 +417,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: 2.6
-; centerY: 0.9
+; centerX: 9.1
+; centerY: 2.08
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X2.60000000 Y0.90000000
+G0 X9.10000000 Y2.08000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X2.6 Y0.9 Z-0.35 R0.0 Q0.05
+G83 X9.1 Y2.08 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -448,25 +448,25 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: 4.4
-; centerY: -0.9
+; centerX: 10.9
+; centerY: 0.28
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X4.40000000 Y-0.90000000
+G0 X10.90000000 Y0.28000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X4.4 Y-0.9 Z-0.35 R0.0 Q0.05
+G83 X10.9 Y0.28 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
@@ -479,25 +479,521 @@ G0 Z0.15000000
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; stopZ: -0.35
+; stopZ: -0.37
 ; startDwell: 2.0
 ; safeZ: 0.15
-; centerX: 4.4
-; centerY: 0.9
+; centerX: 10.9
+; centerY: 2.08
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X4.40000000 Y0.90000000
+G0 X10.90000000 Y2.08000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X4.4 Y0.9 Z-0.35 R0.0 Q0.05
+G83 X10.9 Y2.08 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 11.6
+; centerY: 0.28
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X11.60000000 Y0.28000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X11.6 Y0.28 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 11.6
+; centerY: 2.08
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X11.60000000 Y2.08000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X11.6 Y2.08 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 13.4
+; centerY: 0.28
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X13.40000000 Y0.28000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X13.4 Y0.28 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 13.4
+; centerY: 2.08
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X13.40000000 Y2.08000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X13.4 Y2.08 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 14.1
+; centerY: 0.28
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X14.10000000 Y0.28000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X14.1 Y0.28 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 14.1
+; centerY: 2.08
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X14.10000000 Y2.08000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X14.1 Y2.08 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 15.9
+; centerY: 0.28
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X15.90000000 Y0.28000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X15.9 Y0.28 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 15.9
+; centerY: 2.08
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X15.90000000 Y2.08000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X15.9 Y2.08 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 16.6
+; centerY: 0.28
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X16.60000000 Y0.28000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X16.6 Y0.28 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 16.6
+; centerY: 2.08
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X16.60000000 Y2.08000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X16.6 Y2.08 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 18.4
+; centerY: 0.28
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X18.40000000 Y0.28000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X18.4 Y0.28 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 18.4
+; centerY: 2.08
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X18.40000000 Y2.08000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X18.4 Y2.08 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 19.1
+; centerY: 0.28
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X19.10000000 Y0.28000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X19.1 Y0.28 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 19.1
+; centerY: 2.08
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X19.10000000 Y2.08000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X19.1 Y2.08 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 20.9
+; centerY: 0.28
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X20.90000000 Y0.28000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X20.9 Y0.28 Z-0.37 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; startZ: 0.0
+; stopZ: -0.37
+; startDwell: 2.0
+; safeZ: 0.15
+; centerX: 20.9
+; centerY: 2.08
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.15000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X20.90000000 Y2.08000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X20.9 Y2.08 Z-0.37 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.15000000
